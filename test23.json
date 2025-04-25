@@ -1,0 +1,114 @@
+{
+    "materialInfo": {
+        "header": {
+            "id": 40474,
+            "materialRelationId": 4363084375,
+            "parentRelationId": 4363084364,
+            "parentDynamicId": 4363084364,
+            "parentStaticId": 253559,
+            "dynamicId": 4363084375,
+            "staticId": 254062,
+            "materialId": 40474,
+            "name": "Question-1684247222801",
+            "title": "Question-1684247222801",
+            "description": "",
+            "typeId": 2,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": {
+                "languageId": 12
+            }
+        },
+        "body": [
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>Match each type of code with its purpose</p></block>"
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 7,
+                "content": {
+                    "parts": [
+                        {
+                            "type": 1,
+                            "content": "Structure: "
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 8
+                        },
+                        {
+                            "type": 2
+                        },
+                        {
+                            "type": 1,
+                            "content": "Style: "
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 6
+                        },
+                        {
+                            "type": 2
+                        },
+                        {
+                            "type": 1,
+                            "content": "Interactivity: "
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 14
+                        }
+                    ]
+                },
+                "config": {
+                    "uiType": 0
+                },
+                "orderNumber": 2
+            }
+        ],
+        "answer": {
+            "id": 0,
+            "options": [
+                {
+                    "id": 29656,
+                    "text": "JavaScript",
+                    "data": {},
+                    "orderNumber": 3
+                },
+                {
+                    "id": 29655,
+                    "text": "CSS  ",
+                    "data": {},
+                    "orderNumber": 2
+                },
+                {
+                    "id": 29654,
+                    "text": "HTML ",
+                    "data": {},
+                    "orderNumber": 1
+                }
+            ],
+            "answerTypeId": 6,
+            "supportsFeedback": True
+        },
+        "status": {
+            "visibility": 1,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 1,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 3,
+        "orderNumber": 1,
+        "commentContainerId": 34170,
+        "chat": None
+    }
+}

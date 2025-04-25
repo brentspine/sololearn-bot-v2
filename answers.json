@@ -1,0 +1,908 @@
+[
+    {
+        "header": {
+            "id": 37504,
+            "materialRelationId": 4363256501,
+            "parentRelationId": 4363256490,
+            "parentDynamicId": 4363256490,
+            "parentStaticId": 253551,
+            "dynamicId": 4363256501,
+            "staticId": 254054,
+            "materialId": 37504,
+            "name": "Theory-1682415519342",
+            "title": "Theory-1682415519342",
+            "description": "",
+            "typeId": 1,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": None
+        },
+        "body": [
+            {
+                "componentTypeId": 4,
+                "content": {
+                    "data": "https://lecontent.sololearn.com/material-images/43a5a5a42430462b9908d7281fee910b-01.png",
+                    "ratio": 2,
+                    "description": ""
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>Every website you&rsquo;ve ever visited is built with <b>HTML code</b>.&nbsp;</p>\n<p>&nbsp;</p>\n<p>With this course you&rsquo;ll be able to <b>build your own web page</b>.</p></block>"
+                },
+                "config": {},
+                "orderNumber": 2
+            }
+        ],
+        "status": {
+            "visibility": 2,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 0,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 1,
+        "orderNumber": 1,
+        "commentContainerId": 33697,
+        "chat": None
+    },
+    {
+        "header": {
+            "id": 40467,
+            "materialRelationId": 4363256502,
+            "parentRelationId": 4363256491,
+            "parentDynamicId": 4363256491,
+            "parentStaticId": 253552,
+            "dynamicId": 4363256502,
+            "staticId": 254055,
+            "materialId": 40467,
+            "name": "Question-1684244412018",
+            "title": "Question-1684244412018",
+            "description": "",
+            "typeId": 2,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": None
+        },
+        "body": [
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>HTML code is based on <b>tags.</b></p></block>"
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 2,
+                "content": {
+                    "data": "<button>",
+                    "language": "HTML"
+                },
+                "config": {},
+                "orderNumber": 2
+            },
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>Tags use <b>angle brackets &lt; &gt;</b>.</p>\n<p>&nbsp;</p>\n<p>Complete the button element tag</p></block>"
+                },
+                "config": {},
+                "orderNumber": 3
+            },
+            {
+                "componentTypeId": 7,
+                "content": {
+                    "parts": [
+                        {
+                            "type": 3,
+                            "maxLength": 5
+                        },
+                        {
+                            "type": 1,
+                            "content": "button>"
+                        }
+                    ],
+                    "isCaseSensitive": False,
+                    "type": 1,
+                    "instructions": None
+                },
+                "config": {
+                    "uiType": 1
+                },
+                "orderNumber": 4
+            }
+        ],
+        "answer": {
+            "id": 0,
+            "options": [
+                {
+                    "id": 29642,
+                    "text": "{",
+                    "data": {},
+                    "orderNumber": 2
+                },
+                {
+                    "id": 29641,
+                    "text": "<",
+                    "data": {},
+                    "orderNumber": 1
+                }
+            ],
+            "answerTypeId": 6,
+            "supportsFeedback": True
+        },
+        "status": {
+            "visibility": 1,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 1,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 3,
+        "orderNumber": 1,
+        "commentContainerId": 34163,
+        "chat": None
+    },
+    {
+        "header": {
+            "id": 40468,
+            "materialRelationId": 4363256503,
+            "parentRelationId": 4363256492,
+            "parentDynamicId": 4363256492,
+            "parentStaticId": 253553,
+            "dynamicId": 4363256503,
+            "staticId": 254056,
+            "materialId": 40468,
+            "name": "Question-1684244571036",
+            "title": "Question-1684244571036",
+            "description": "",
+            "typeId": 2,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": None
+        },
+        "body": [
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>The angle brackets &lt; &gt; surround the name of the element you want to add to the page. Elements like buttons, text and images are added to web pages with different tags.</p>\n<p></p>\n<p>Complete the HTML tag for a button element</p></block>"
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 7,
+                "content": {
+                    "parts": [
+                        {
+                            "type": 1,
+                            "content": "<button"
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 3
+                        }
+                    ],
+                    "isCaseSensitive": False
+                },
+                "config": {
+                    "uiType": 1
+                },
+                "orderNumber": 2
+            }
+        ],
+        "answer": {
+            "id": 0,
+            "options": [
+                {
+                    "id": 29644,
+                    "text": "<",
+                    "data": {},
+                    "orderNumber": 2
+                },
+                {
+                    "id": 29643,
+                    "text": ">",
+                    "data": {},
+                    "orderNumber": 1
+                }
+            ],
+            "answerTypeId": 6,
+            "supportsFeedback": True
+        },
+        "status": {
+            "visibility": 1,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 1,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 3,
+        "orderNumber": 1,
+        "commentContainerId": 34164,
+        "chat": None
+    },
+    {
+        "header": {
+            "id": 40469,
+            "materialRelationId": 4363256504,
+            "parentRelationId": 4363256493,
+            "parentDynamicId": 4363256493,
+            "parentStaticId": 253554,
+            "dynamicId": 4363256504,
+            "staticId": 254057,
+            "materialId": 40469,
+            "name": "Question-1684244720414",
+            "title": "Question-1684244720414",
+            "description": "",
+            "typeId": 2,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": None
+        },
+        "body": [
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>It all starts with a tag.&nbsp;</p>\n<p></p>\n<p>Create a valid button tag</p></block>"
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 7,
+                "content": {
+                    "parts": [
+                        {
+                            "type": 1,
+                            "content": "<"
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 8
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 2
+                        }
+                    ]
+                },
+                "config": {
+                    "uiType": 1
+                },
+                "orderNumber": 2
+            }
+        ],
+        "answer": {
+            "id": 0,
+            "options": [
+                {
+                    "id": 29646,
+                    "text": ">",
+                    "data": {},
+                    "orderNumber": 2
+                },
+                {
+                    "id": 29645,
+                    "text": "button ",
+                    "data": {},
+                    "orderNumber": 1
+                }
+            ],
+            "answerTypeId": 6,
+            "supportsFeedback": True
+        },
+        "status": {
+            "visibility": 1,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 1,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 3,
+        "orderNumber": 1,
+        "commentContainerId": 34165,
+        "chat": None
+    },
+    {
+        "header": {
+            "id": 40470,
+            "materialRelationId": 4363256505,
+            "parentRelationId": 4363256494,
+            "parentDynamicId": 4363256494,
+            "parentStaticId": 253555,
+            "dynamicId": 4363256505,
+            "staticId": 254058,
+            "materialId": 40470,
+            "name": "Question-1684244920845",
+            "title": "Question-1684244920845",
+            "description": "",
+            "typeId": 2,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": None
+        },
+        "body": [
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>You can use the <b>image tag&nbsp;(&lt;img&gt;) </b>to add images to a web page.</p>\n<p></p>\n<p>Complete the image tag</p></block>"
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 7,
+                "content": {
+                    "parts": [
+                        {
+                            "type": 1,
+                            "content": "<img"
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 4
+                        }
+                    ],
+                    "isCaseSensitive": False
+                },
+                "config": {
+                    "uiType": 1
+                },
+                "orderNumber": 2
+            }
+        ],
+        "answer": {
+            "id": 0,
+            "options": [
+                {
+                    "id": 29647,
+                    "text": ">",
+                    "data": {},
+                    "orderNumber": 1
+                },
+                {
+                    "id": 29649,
+                    "text": "*",
+                    "data": {},
+                    "orderNumber": 3
+                },
+                {
+                    "id": 29648,
+                    "text": "<",
+                    "data": {},
+                    "orderNumber": 2
+                }
+            ],
+            "answerTypeId": 6,
+            "supportsFeedback": True
+        },
+        "status": {
+            "visibility": 1,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 1,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 3,
+        "orderNumber": 1,
+        "commentContainerId": 34166,
+        "chat": None
+    },
+    {
+        "header": {
+            "id": 40471,
+            "materialRelationId": 4363256506,
+            "parentRelationId": 4363256495,
+            "parentDynamicId": 4363256495,
+            "parentStaticId": 253556,
+            "dynamicId": 4363256506,
+            "staticId": 254059,
+            "materialId": 40471,
+            "name": "Question-1684245045554",
+            "title": "Question-1684245045554",
+            "description": "",
+            "typeId": 2,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": {
+                "languageId": 12
+            }
+        },
+        "body": [
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>You need HTML tags to add different elements to a page.</p>\n<p></p>\n<p>Match the element and the tag</p></block>"
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 7,
+                "content": {
+                    "parts": [
+                        {
+                            "type": 1,
+                            "content": "Button: "
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 9
+                        },
+                        {
+                            "type": 2
+                        },
+                        {
+                            "type": 1,
+                            "content": "Image: "
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 8
+                        },
+                        {
+                            "type": 2
+                        },
+                        {
+                            "type": 1,
+                            "content": "Text paragraph: "
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 8
+                        },
+                        {
+                            "type": 2
+                        },
+                        {
+                            "type": 1,
+                            "content": "Table: "
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 8
+                        }
+                    ]
+                },
+                "config": {
+                    "uiType": 0
+                },
+                "orderNumber": 2
+            }
+        ],
+        "answer": {
+            "id": 0,
+            "options": [
+                {
+                    "id": 29653,
+                    "text": "<table>",
+                    "data": {},
+                    "orderNumber": 4
+                },
+                {
+                    "id": 29650,
+                    "text": "<button>",
+                    "data": {},
+                    "orderNumber": 1
+                },
+                {
+                    "id": 29652,
+                    "text": "<p>",
+                    "data": {},
+                    "orderNumber": 3
+                },
+                {
+                    "id": 29651,
+                    "text": "<img>",
+                    "data": {},
+                    "orderNumber": 2
+                }
+            ],
+            "answerTypeId": 6,
+            "supportsFeedback": True
+        },
+        "status": {
+            "visibility": 1,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 1,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 3,
+        "orderNumber": 1,
+        "commentContainerId": 34167,
+        "chat": None
+    },
+    {
+        "header": {
+            "id": 40472,
+            "materialRelationId": 4363256507,
+            "parentRelationId": 4363256496,
+            "parentDynamicId": 4363256496,
+            "parentStaticId": 253557,
+            "dynamicId": 4363256507,
+            "staticId": 254060,
+            "materialId": 40472,
+            "name": "Theory-1684245304407",
+            "title": "Theory-1684245304407",
+            "description": "",
+            "typeId": 1,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": None
+        },
+        "body": [
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>HTML will allow you to:</p>\n<p>&nbsp;</p>\n<ul>\n<li>Create websites</li>\n<li>Work more effectively with technical teams</li>\n<li>Improve digital marketing skills</li>\n</ul></block>"
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 3,
+                "content": {
+                    "data": "<block><p>What will you use HTML for? Click on the comments to share your thoughts and connect with your fellow learners.</p></block>",
+                    "level": 1
+                },
+                "config": {},
+                "orderNumber": 2
+            }
+        ],
+        "status": {
+            "visibility": 1,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 0,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 1,
+        "orderNumber": 1,
+        "commentContainerId": 34168,
+        "chat": None
+    },
+    {
+        "header": {
+            "id": 40473,
+            "materialRelationId": 4363256508,
+            "parentRelationId": 4363256497,
+            "parentDynamicId": 4363256497,
+            "parentStaticId": 253558,
+            "dynamicId": 4363256508,
+            "staticId": 254061,
+            "materialId": 40473,
+            "name": "Theory-1684245404326",
+            "title": "Theory-1684245404326",
+            "description": "",
+            "typeId": 1,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": None
+        },
+        "body": [
+            {
+                "componentTypeId": 4,
+                "content": {
+                    "data": "https://lecontent.sololearn.com/material-images/db6da6c5ab584f5c8114726877f2c71b-1.01.08.png",
+                    "ratio": 1.9656019656019657
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>The <b>structure</b> of a web page is built in <b>HTML.</b></p>\n<p>&nbsp;</p>\n<p>You can then <b>style</b> the page with <b>CSS.</b></p>\n<p>&nbsp;</p>\n<p><b>JavaScript</b> is used to make pages <b>interactive.</b></p></block>"
+                },
+                "config": {},
+                "orderNumber": 2
+            }
+        ],
+        "status": {
+            "visibility": 1,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 0,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 1,
+        "orderNumber": 1,
+        "commentContainerId": 34169,
+        "chat": None
+    },
+    {
+        "header": {
+            "id": 40474,
+            "materialRelationId": 4363256509,
+            "parentRelationId": 4363256498,
+            "parentDynamicId": 4363256498,
+            "parentStaticId": 253559,
+            "dynamicId": 4363256509,
+            "staticId": 254062,
+            "materialId": 40474,
+            "name": "Question-1684247222801",
+            "title": "Question-1684247222801",
+            "description": "",
+            "typeId": 2,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": {
+                "languageId": 12
+            }
+        },
+        "body": [
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>Match each type of code with its purpose</p></block>"
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 7,
+                "content": {
+                    "parts": [
+                        {
+                            "type": 1,
+                            "content": "Structure: "
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 8
+                        },
+                        {
+                            "type": 2
+                        },
+                        {
+                            "type": 1,
+                            "content": "Style: "
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 6
+                        },
+                        {
+                            "type": 2
+                        },
+                        {
+                            "type": 1,
+                            "content": "Interactivity: "
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 14
+                        }
+                    ]
+                },
+                "config": {
+                    "uiType": 0
+                },
+                "orderNumber": 2
+            }
+        ],
+        "answer": {
+            "id": 0,
+            "options": [
+                {
+                    "id": 29656,
+                    "text": "JavaScript",
+                    "data": {},
+                    "orderNumber": 3
+                },
+                {
+                    "id": 29655,
+                    "text": "CSS  ",
+                    "data": {},
+                    "orderNumber": 2
+                },
+                {
+                    "id": 29654,
+                    "text": "HTML ",
+                    "data": {},
+                    "orderNumber": 1
+                }
+            ],
+            "answerTypeId": 6,
+            "supportsFeedback": True
+        },
+        "status": {
+            "visibility": 1,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 1,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 3,
+        "orderNumber": 1,
+        "commentContainerId": 34170,
+        "chat": None
+    },
+    {
+        "header": {
+            "id": 40475,
+            "materialRelationId": 4363256510,
+            "parentRelationId": 4363256499,
+            "parentDynamicId": 4363256499,
+            "parentStaticId": 253560,
+            "dynamicId": 4363256510,
+            "staticId": 254063,
+            "materialId": 40475,
+            "name": "Question-1684247375058",
+            "title": "Question-1684247375058",
+            "description": "",
+            "typeId": 2,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": None
+        },
+        "body": [
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><p>Create a valid button tag</p></block>"
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 7,
+                "content": {
+                    "parts": [
+                        {
+                            "type": 3,
+                            "maxLength": 3
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 8
+                        },
+                        {
+                            "type": 3,
+                            "maxLength": 4
+                        }
+                    ]
+                },
+                "config": {
+                    "uiType": 1
+                },
+                "orderNumber": 2
+            }
+        ],
+        "answer": {
+            "id": 0,
+            "options": [
+                {
+                    "id": 29658,
+                    "text": "button",
+                    "data": {},
+                    "orderNumber": 2
+                },
+                {
+                    "id": 29659,
+                    "text": ">",
+                    "data": {},
+                    "orderNumber": 3
+                },
+                {
+                    "id": 29657,
+                    "text": "<",
+                    "data": {},
+                    "orderNumber": 1
+                }
+            ],
+            "answerTypeId": 6,
+            "supportsFeedback": True
+        },
+        "status": {
+            "visibility": 1,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 1,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 3,
+        "orderNumber": 1,
+        "commentContainerId": 34171,
+        "chat": None
+    },
+    {
+        "header": {
+            "id": 30449,
+            "materialRelationId": 4363256511,
+            "parentRelationId": 4363256500,
+            "parentDynamicId": 4363256500,
+            "parentStaticId": 253561,
+            "dynamicId": 4363256511,
+            "staticId": 254064,
+            "materialId": 30449,
+            "name": "Theory-1674202229327",
+            "title": "Theory-1674202229327",
+            "description": "",
+            "typeId": 1,
+            "structureTypeId": 1,
+            "resourceType": 1,
+            "uiConfigurations": None
+        },
+        "body": [
+            {
+                "componentTypeId": 1,
+                "content": {
+                    "data": "<block><h1>Lesson Takeaways</h1>\n<p></p>\n<p>Great work! You learned that:</p>\n<p>&nbsp;</p>\n<p>⭐ <b>HTML</b> code controls the structure of a web page</p>\n<p>⭐ <b>HTML tags</b> are used to add elements to a web page</p>\n<p>⭐ Some examples of <b>HTML tags</b> are <b>&lt;button&gt;, &lt;img&gt;, &lt;table&gt;</b> and <b>&lt;p&gt;</b></p></block>"
+                },
+                "config": {},
+                "orderNumber": 1
+            },
+            {
+                "componentTypeId": 3,
+                "content": {
+                    "data": "<block><p>In the next lesson you&rsquo;ll start writing, running and testing real code in the Code Playground.</p></block>",
+                    "level": 1
+                },
+                "config": {},
+                "orderNumber": 2
+            }
+        ],
+        "status": {
+            "visibility": 1,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 0,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        "requirementTypeId": 1,
+        "orderNumber": 1,
+        "commentContainerId": 27323,
+        "chat": None
+    }
+]

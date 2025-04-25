@@ -1,0 +1,91 @@
+{
+    "solutions": [
+        {
+            "materialRelationId": 4363783779,
+            "typeId": 1,
+            "codes": None,
+            "answer": None,
+            "isCorrect": True,
+            "completion": 2,
+            "hint": None,
+            "aiChatResponse": None
+        }
+    ],
+    "statusChanges": [
+        {
+            "materialRelationId": 4363783779,
+            "visibility": 2,
+            "completion": 2,
+            "isCompleted": True,
+            "availabilityTypeId": 0,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        {
+            "materialRelationId": 4363783768,
+            "visibility": 2,
+            "completion": 2,
+            "isCompleted": True,
+            "availabilityTypeId": 0,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        {
+            "materialRelationId": 4363783780,
+            "visibility": 2,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 1,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        },
+        {
+            "materialRelationId": 4363783769,
+            "visibility": 2,
+            "completion": 0,
+            "isCompleted": False,
+            "availabilityTypeId": 0,
+            "ownership": {
+                "isOwned": True,
+                "ownershipRequirementsTypeId": 0
+            },
+            "resourceType": 1
+        }
+    ],
+    "heartsState": {
+        "heartsCount": 5,
+        "previousHeartsCount": 0,
+        "lastUpdateDate": "2025-04-13T19:06:00",
+        "hasInfiniteHearts": False,
+        "maxHeartsCount": 5,
+        "configurations": [
+            {
+                "firstDeductionDate": None,
+                "nextRefillDate": "2025-04-13T19:06:02.4862356Z",
+                "refillDurationBySecond": 0,
+                "name": "timeInterval"
+            }
+        ],
+        "deductionUnits": [
+            {
+                "usageTypeId": 2,
+                "title": "QuestionMaterial",
+                "unit": 1
+            },
+            {
+                "usageTypeId": 1,
+                "title": "Quiz",
+                "unit": 1
+            }
+        ]
+    }
+}
