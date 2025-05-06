@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
+# Private API, that returns username, mail, profile picture and more
 FAKE_PERSONA_URL = os.getenv("FAKE_PERSONA_URL")
 # FAKE_PERSONA_URL = "https://17b1-95-223-231-187.ngrok-free.app/fake_persona/get.php"
 
