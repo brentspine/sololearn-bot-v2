@@ -1,6 +1,4 @@
 // MADE BY BRENTSPINE
-// https://github.com/brentspine/sololearn-bot-v2/blob/main/auto_follower.js
-
 // This script is for following OTHER people's account. The rest of the repo is about follow-botting
 // Educational purposes only, do not abuse
 
@@ -12,7 +10,7 @@ TRY_UPPER_BOUND_TIMEOUT_SECONDS = 3*60;   // How often the script rechecks the u
 STARTED_AT_UPPER_BOUND = 35087148;        // The start for the upper bound system
 
 // PUT YOUR REFRESH TOKEN HERE
-REFRESH_TOKEN = "";
+REFRESH_TOKEN = "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiJ7XCJJbnN0YW5jZUlkXCI6NTE0NzIzNTksXCJVc2VySWRcIjozMzk2NTU2OSxcIk5pY2tuYW1lXCI6XCJCcmVudHNwaW5lXCIsXCJEZXZpY2VJZFwiOjk2ODc1MTkzLFwiQ2xpZW50SWRcIjoxMTQzLFwiUGxhdGZvcm1JZFwiOjQsXCJMb2NhbGVJZFwiOjEsXCJBcHBWZXJzaW9uXCI6XCIwLjAuMC4wXCIsXCJJc1Byb1wiOmZhbHNlLFwiUGxhbkNvbmZpZ3VyYXRpb25JZFwiOjEsXCJDb250ZXh0SWRcIjoxLFwiT3JnYW5pemF0aW9uSWRcIjowLFwiR2VuZXJhdGlvblwiOlwiZGQ1YjIyYzItNGQ0NC00MzFjLTg4MjItNTkwOWNjZjk4YTAxXCIsXCJDb3VudHJ5Q29kZVwiOlwiREVcIn0iLCJqdGkiOiIyMjRkYTRlMi04OTIwLTQ5NzEtYTRlZC01NDY1ZWExN2Y4NzkiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyIiwibmJmIjoxNzY2MDI5MjkwLCJleHAiOjE3NzM4MDUyOTAsImlzcyI6IlNvbG9MZWFybi5TZWN1cml0eS5CZWFyZXIiLCJhdWQiOiJTb2xvTGVhcm4uU2VjdXJpdHkuUmVmcmVzaCJ9.VuPYyVJSpx8DpF3HCh7xxDXmjdEOvSui1aSKUiqofZe4axqUJowXAqb7ae24qqh7vXaaztnbBY47sdiCBVQ0Cg";
 
 class Data {
 	constructor() {
@@ -201,15 +199,16 @@ async function follow(userId) {
 }
 
 function checkTokenRefresh() {
-    // For first time run, save the refreshToken
-    if(!localStorage.getItem("refreshToken")) {
-        localStorage.setItem("refreshToken", REFRESH_TOKEN);
-        console.log("Saved your refresh token in the localStorage");
-    }
-    // Defaults to 0
-	const expiresAt = 3600 + (localStorage.getItem("lastTokenRefresh") ?? (getSeconds() - 3600));
+  // For first time run, save the refreshToken
+  if(!localStorage.getItem("refreshToken")) {
+      localStorage.setItem("refreshToken", REFRESH_TOKEN);
+      console.log("Saved your refresh token in the localStorage");
+  }
+  // Defaults to 0
+	const expiresAt = 3600 + new Number((localStorage.getItem("lastTokenRefresh") ?? (getSeconds() - 3600)));
 	const secondsTill = expiresAt - getSeconds();
 	const secondsTillRefresh = secondsTill - 10*60; // Padding/Margin
+	console.log(expiresAt, secondsTill)
 	console.log(`Time till token refresh: ${secondsTillRefresh}`);
 	if(secondsTillRefresh <= 10) return tokenRefresh();
 	setTimeout(tokenRefresh, secondsTillRefresh*1000);
