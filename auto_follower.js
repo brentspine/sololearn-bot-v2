@@ -1,4 +1,6 @@
 // MADE BY BRENTSPINE
+// https://github.com/brentspine/sololearn-bot-v2/blob/main/auto_follower.js
+
 // This script is for following OTHER people's account. The rest of the repo is about follow-botting
 // Educational purposes only, do not abuse
 
